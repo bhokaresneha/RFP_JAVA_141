@@ -2,7 +2,7 @@
  Write a program to demonstrate static variables, methods, and blocks.
   */
 
-public class demoOfStaticVariablesMethod {
+public class DemoOfStaticVariablesMethod {
     static byte b;
     static short s;
     static int i;
@@ -27,7 +27,7 @@ public class demoOfStaticVariablesMethod {
     public static void main(String[] args)
     {
         System.out.println("The default values of primitive data types are:");
-        demoOfStaticVariablesMethod dsvm=new demoOfStaticVariablesMethod();
+        DemoOfStaticVariablesMethod dsvm=new DemoOfStaticVariablesMethod();
         dsvm.PrimitiveDatatype();
 
     }
